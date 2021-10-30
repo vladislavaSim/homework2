@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+div {
+    margin-left: 8px;
+}
+
+.first {
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px;
+    margin-top: 80px;
+    border: 2px dashed red;
+    background-color: lightgreen;
+}
+#squares {
+    position: relative;
+}
+.red, .blue, .green {
+    width: 100px;
+    height: 100px;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+    position: relative;
+    left: 50px;
+    top: -40px;
+    z-index: -5;
+}
+.green {
+    background-color: green;
+    position: absolute;
+    top: 60%;
+    left: 110px;
+}
+.face {
+    background-color: lightgreen;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin: 50px 10px;
+    position: relative;
+}
+.face div {
+    position: absolute;
+    background-color: #fff;
+}
+.eye, .eye2 {
+    width: 100px;
+    height: 100px;
+    top: 104px;
+    border-radius: 50%;
+}
+.eye {
+    left: 75px;
+}
+.eye2 {
+    right: 75px;
+}
+.nose {
+    width: 75px;
+    height: 75px;
+    top: 45%;
+    left: 215px;
+}
+.mouth {
+    width: 200px;
+    height: 25px;
+    bottom: 25%;
+    left: 150px;
+}
+header {
+    background-color: rgb(197, 228, 24);
+    color: white;
+    height: 65px;
+    font-size: 25px;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    padding-top: 20px;
+    position: fixed;
+    box-sizing: border-box;
+}
+.text-box {
+    font-size: 18px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    width: 80%;
+    border: 2px solid rgb(197, 228, 24);
+}
